@@ -1,0 +1,72 @@
+.primary-1 { background-color: #519297 }
+.primary-2 { background-color: #4A6E72 }
+.primary-3 { background-color: #1A5C62 }
+.primary-4 { background-color: #85C5CB }
+.primary-5 { background-color: #98C7CB }
+
+.complement-1 { background-color: #F9BB84 }
+.complement-2 { background-color: #BB9879 }
+.complement-3 { background-color: #A2632B }
+.complement-4 { background-color: #FCCDA3 }
+.complement-5 { background-color: #FCDABB }
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    position:relative;
+    height:100%;
+    width:100%;
+    font-family:arial;
+    font-size:10pt;
+}
+
+#main {
+    position:absolute;
+    top:0px;
+    height:100%;
+    left:50px;
+    right:50px;
+}
+
+#header {
+    position:absolute;
+    height:100px;
+    left:0;
+    top:0;
+    text-align: center;
+    left:30px;
+    right:30px;
+}
+
+#header h1 {
+    margin-top:30px;
+    color:#F9BB84;
+}
+
+#content {
+    background-color: #DDD;
+    position:absolute;
+    top:100px;
+    bottom:50px;
+    left:30px;
+    right:30px;
+    overflow-y:auto;
+    padding:2px;
+}
+
+#footer {
+    position:absolute;
+    bottom:0px;
+    height:50px;
+    left:30px;
+    right:30px;
+}
+
+.entry {
+    position:relative;
+    height:70px;
+    border-bottom:1px solid black
+}
